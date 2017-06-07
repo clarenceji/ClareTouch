@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A3F1041EE83BF400524914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3F1031EE83BF400524914 /* AppDelegate.swift */; };
+		11A3F1061EE83BF400524914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3F1051EE83BF400524914 /* ViewController.swift */; };
+		11A3F1091EE83BF400524914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A3F1071EE83BF400524914 /* Main.storyboard */; };
+		11A3F10B1EE83BF400524914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A3F10A1EE83BF400524914 /* Assets.xcassets */; };
+		11A3F10E1EE83BF400524914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A3F10C1EE83BF400524914 /* LaunchScreen.storyboard */; };
+		11A3F1191EE83BF400524914 /* ClareTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3F1181EE83BF400524914 /* ClareTouchTests.swift */; };
+		11A3F1241EE83BF400524914 /* ClareTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A3F1231EE83BF400524914 /* ClareTouchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A3F1151EE83BF400524914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A3F0F81EE83BF400524914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A3F0FF1EE83BF400524914;
+			remoteInfo = ClareTouch;
+		};
+		11A3F1201EE83BF400524914 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A3F0F81EE83BF400524914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A3F0FF1EE83BF400524914;
+			remoteInfo = ClareTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A3F1001EE83BF400524914 /* ClareTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClareTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A3F1031EE83BF400524914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11A3F1051EE83BF400524914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11A3F1081EE83BF400524914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11A3F10A1EE83BF400524914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11A3F10D1EE83BF400524914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11A3F10F1EE83BF400524914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A3F1141EE83BF400524914 /* ClareTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClareTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A3F1181EE83BF400524914 /* ClareTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClareTouchTests.swift; sourceTree = "<group>"; };
+		11A3F11A1EE83BF400524914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A3F11F1EE83BF400524914 /* ClareTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClareTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A3F1231EE83BF400524914 /* ClareTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClareTouchUITests.swift; sourceTree = "<group>"; };
+		11A3F1251EE83BF400524914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A3F0FD1EE83BF400524914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A3F1111EE83BF400524914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A3F11C1EE83BF400524914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A3F0F71EE83BF400524914 = {
+			isa = PBXGroup;
+			children = (
+				11A3F1021EE83BF400524914 /* ClareTouch */,
+				11A3F1171EE83BF400524914 /* ClareTouchTests */,
+				11A3F1221EE83BF400524914 /* ClareTouchUITests */,
+				11A3F1011EE83BF400524914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A3F1011EE83BF400524914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A3F1001EE83BF400524914 /* ClareTouch.app */,
+				11A3F1141EE83BF400524914 /* ClareTouchTests.xctest */,
+				11A3F11F1EE83BF400524914 /* ClareTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A3F1021EE83BF400524914 /* ClareTouch */ = {
+			isa = PBXGroup;
+			children = (
+				11A3F1031EE83BF400524914 /* AppDelegate.swift */,
+				11A3F1051EE83BF400524914 /* ViewController.swift */,
+				11A3F1071EE83BF400524914 /* Main.storyboard */,
+				11A3F10A1EE83BF400524914 /* Assets.xcassets */,
+				11A3F10C1EE83BF400524914 /* LaunchScreen.storyboard */,
+				11A3F10F1EE83BF400524914 /* Info.plist */,
+			);
+			path = ClareTouch;
+			sourceTree = "<group>";
+		};
+		11A3F1171EE83BF400524914 /* ClareTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				11A3F1181EE83BF400524914 /* ClareTouchTests.swift */,
+				11A3F11A1EE83BF400524914 /* Info.plist */,
+			);
+			path = ClareTouchTests;
+			sourceTree = "<group>";
+		};
+		11A3F1221EE83BF400524914 /* ClareTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11A3F1231EE83BF400524914 /* ClareTouchUITests.swift */,
+				11A3F1251EE83BF400524914 /* Info.plist */,
+			);
+			path = ClareTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A3F0FF1EE83BF400524914 /* ClareTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A3F1281EE83BF400524914 /* Build configuration list for PBXNativeTarget "ClareTouch" */;
+			buildPhases = (
+				11A3F0FC1EE83BF400524914 /* Sources */,
+				11A3F0FD1EE83BF400524914 /* Frameworks */,
+				11A3F0FE1EE83BF400524914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClareTouch;
+			productName = ClareTouch;
+			productReference = 11A3F1001EE83BF400524914 /* ClareTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11A3F1131EE83BF400524914 /* ClareTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A3F12B1EE83BF400524914 /* Build configuration list for PBXNativeTarget "ClareTouchTests" */;
+			buildPhases = (
+				11A3F1101EE83BF400524914 /* Sources */,
+				11A3F1111EE83BF400524914 /* Frameworks */,
+				11A3F1121EE83BF400524914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A3F1161EE83BF400524914 /* PBXTargetDependency */,
+			);
+			name = ClareTouchTests;
+			productName = ClareTouchTests;
+			productReference = 11A3F1141EE83BF400524914 /* ClareTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11A3F11E1EE83BF400524914 /* ClareTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A3F12E1EE83BF400524914 /* Build configuration list for PBXNativeTarget "ClareTouchUITests" */;
+			buildPhases = (
+				11A3F11B1EE83BF400524914 /* Sources */,
+				11A3F11C1EE83BF400524914 /* Frameworks */,
+				11A3F11D1EE83BF400524914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A3F1211EE83BF400524914 /* PBXTargetDependency */,
+			);
+			name = ClareTouchUITests;
+			productName = ClareTouchUITests;
+			productReference = 11A3F11F1EE83BF400524914 /* ClareTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A3F0F81EE83BF400524914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Clarence Ji";
+				TargetAttributes = {
+					11A3F0FF1EE83BF400524914 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					11A3F1131EE83BF400524914 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 11A3F0FF1EE83BF400524914;
+					};
+					11A3F11E1EE83BF400524914 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 11A3F0FF1EE83BF400524914;
+					};
+				};
+			};
+			buildConfigurationList = 11A3F0FB1EE83BF400524914 /* Build configuration list for PBXProject "ClareTouch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A3F0F71EE83BF400524914;
+			productRefGroup = 11A3F1011EE83BF400524914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A3F0FF1EE83BF400524914 /* ClareTouch */,
+				11A3F1131EE83BF400524914 /* ClareTouchTests */,
+				11A3F11E1EE83BF400524914 /* ClareTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A3F0FE1EE83BF400524914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A3F10E1EE83BF400524914 /* LaunchScreen.storyboard in Resources */,
+				11A3F10B1EE83BF400524914 /* Assets.xcassets in Resources */,
+				11A3F1091EE83BF400524914 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A3F1121EE83BF400524914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A3F11D1EE83BF400524914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A3F0FC1EE83BF400524914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A3F1061EE83BF400524914 /* ViewController.swift in Sources */,
+				11A3F1041EE83BF400524914 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A3F1101EE83BF400524914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A3F1191EE83BF400524914 /* ClareTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A3F11B1EE83BF400524914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A3F1241EE83BF400524914 /* ClareTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A3F1161EE83BF400524914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A3F0FF1EE83BF400524914 /* ClareTouch */;
+			targetProxy = 11A3F1151EE83BF400524914 /* PBXContainerItemProxy */;
+		};
+		11A3F1211EE83BF400524914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A3F0FF1EE83BF400524914 /* ClareTouch */;
+			targetProxy = 11A3F1201EE83BF400524914 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11A3F1071EE83BF400524914 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A3F1081EE83BF400524914 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11A3F10C1EE83BF400524914 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A3F10D1EE83BF400524914 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11A3F1261EE83BF400524914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11A3F1271EE83BF400524914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A3F1291EE83BF400524914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G6TTA6H999;
+				INFOPLIST_FILE = ClareTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjlondon.ClareTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A3F12A1EE83BF400524914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G6TTA6H999;
+				INFOPLIST_FILE = ClareTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjlondon.ClareTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11A3F12C1EE83BF400524914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G6TTA6H999;
+				INFOPLIST_FILE = ClareTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjlondon.ClareTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClareTouch.app/ClareTouch";
+			};
+			name = Debug;
+		};
+		11A3F12D1EE83BF400524914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G6TTA6H999;
+				INFOPLIST_FILE = ClareTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjlondon.ClareTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClareTouch.app/ClareTouch";
+			};
+			name = Release;
+		};
+		11A3F12F1EE83BF400524914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G6TTA6H999;
+				INFOPLIST_FILE = ClareTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjlondon.ClareTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClareTouch;
+			};
+			name = Debug;
+		};
+		11A3F1301EE83BF400524914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G6TTA6H999;
+				INFOPLIST_FILE = ClareTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjlondon.ClareTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClareTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A3F0FB1EE83BF400524914 /* Build configuration list for PBXProject "ClareTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A3F1261EE83BF400524914 /* Debug */,
+				11A3F1271EE83BF400524914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A3F1281EE83BF400524914 /* Build configuration list for PBXNativeTarget "ClareTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A3F1291EE83BF400524914 /* Debug */,
+				11A3F12A1EE83BF400524914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11A3F12B1EE83BF400524914 /* Build configuration list for PBXNativeTarget "ClareTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A3F12C1EE83BF400524914 /* Debug */,
+				11A3F12D1EE83BF400524914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11A3F12E1EE83BF400524914 /* Build configuration list for PBXNativeTarget "ClareTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A3F12F1EE83BF400524914 /* Debug */,
+				11A3F1301EE83BF400524914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A3F0F81EE83BF400524914 /* Project object */;
+}
