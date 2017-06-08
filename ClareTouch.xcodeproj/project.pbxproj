@@ -47,6 +47,7 @@
 		11A3F11F1EE83BF400524914 /* ClareTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClareTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A3F1231EE83BF400524914 /* ClareTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClareTouchUITests.swift; sourceTree = "<group>"; };
 		11A3F1251EE83BF400524914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A3F1311EE8452A00524914 /* ClareTouch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClareTouch.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		11A3F1021EE83BF400524914 /* ClareTouch */ = {
 			isa = PBXGroup;
 			children = (
+				11A3F1311EE8452A00524914 /* ClareTouch.entitlements */,
 				11A3F1031EE83BF400524914 /* AppDelegate.swift */,
 				11A3F1051EE83BF400524914 /* ViewController.swift */,
 				11A3F1071EE83BF400524914 /* Main.storyboard */,
@@ -419,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = /Users/clarence/Developer/ClareTouch/ClareTouch/ClareTouch.entitlements;
 				DEVELOPMENT_TEAM = G6TTA6H999;
 				INFOPLIST_FILE = ClareTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -433,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = /Users/clarence/Developer/ClareTouch/ClareTouch/ClareTouch.entitlements;
 				DEVELOPMENT_TEAM = G6TTA6H999;
 				INFOPLIST_FILE = ClareTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -524,6 +528,7 @@
 				11A3F12A1EE83BF400524914 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11A3F12B1EE83BF400524914 /* Build configuration list for PBXNativeTarget "ClareTouchTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +537,7 @@
 				11A3F12D1EE83BF400524914 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11A3F12E1EE83BF400524914 /* Build configuration list for PBXNativeTarget "ClareTouchUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +546,7 @@
 				11A3F1301EE83BF400524914 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
