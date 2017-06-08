@@ -1,4 +1,6 @@
 ### ClareTouch
+<img src="http://forthebadge.com/images/badges/made-with-swift.svg" height="30">
+
 Experiments with Apple's CoreNFC framework (beta)
 ###### Latest update with iOS 11.0 beta 1 (15A5278f)
 ------
